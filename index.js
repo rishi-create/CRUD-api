@@ -23,7 +23,7 @@ app.get("/", (req, res) => {
 
 mongoose
   .connect(
-    "mongodb+srv://rishisodani9:7va1wLwuEm4GI9Uq@api.8admubp.mongodb.net/Api-data?retryWrites=true&w=majority&appName=api"
+    "mongodb+srv:"
   )
   .then(() => {
     console.log("Connected");
@@ -32,5 +32,4 @@ mongoose
     console.log("Not Conneted");
   });
 
-//7va1wLwuEm4GI9Uq
-//mongodb+srv://rishisodani9:<password>@api.8admubp.mongodb.net/?retryWrites=true&w=majority&appName=api
+
